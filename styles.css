@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    overflow-x: auto;
+    background-color: #212529;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #DEE2E6;
+    font-size: 6rem;
+    font-family: serif;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #AEB2B6;
+    font-size: 2rem;
+    font-family: serif;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #AEB2B6;
+    display: inline;
+}
+
+svg {
+    transform: rotate(180deg);
+    color: #baa8a8;
+    margin-left: 5px;
+}
+
+.des {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: white;
+}
+
+input {
+    height: 50px;
+    width: 30rem;
+    max-width: 900px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+#result {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto auto auto;
+}
+#result:empty{
+    display: none;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    font-size: 16px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+ul li:nth-child(odd) {
+    background-color: #e9e9e9;
+}
+
+#result ul li {
+    padding-left: 20px;
+}
+
+#result h3 {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-top: 15px;
+}
